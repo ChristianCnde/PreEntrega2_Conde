@@ -113,12 +113,21 @@ button {
 
 .lanzamientos .container .card {
     width: 300px;
-    height: 480px;
+    height: 500px;
     border: 1px solid #111;
     border-radius: 14px;
     overflow: hidden;
     
 }
+
+#cardJ img {
+    position: relative;
+    width: 100%;
+    height: auto;
+    background-position: center;
+    background-size: cover; 
+}
+
 .card img {
     position: relative;
     width: 100%;
@@ -127,6 +136,11 @@ button {
     background-size: cover;  
 }
 
+
+footer .box{
+    display: flex;
+    
+}
 
 /*HOMBRES*/
 
@@ -267,14 +281,6 @@ button {
     
 }
 
-footer{
-    position: relative;
-    display: flex;
-    justify-content: space-around;
-    margin: auto;
-    width: 100%;
-    min-height: max-content;
-}
 
 *::-webkit-scrollbar {
     width: 16px;
@@ -288,15 +294,6 @@ footer{
     background-color: #000000;
     border-radius: 10px;
     border: 3px solid #000000;
-  }
-
-  @media screen (min-width: 320px ) {
-    nav{
-        width: 50%;
-        padding: 10px;
-        background: #111;
-        font-size: 10px;
-    }
   }
 
 
