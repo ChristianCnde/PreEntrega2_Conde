@@ -1,0 +1,310 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&family=Rubik+Glitch&display=swap');
+
+*{
+    box-sizing: border-box;
+    scrollbar-width: auto;
+    scrollbar-color: #000000 #7d7d7d;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: #111;
+    color: rgb(255, 255, 255);
+    line-height: 1.6;
+}
+
+h1{
+    font-size: 3em;
+}
+
+h2{
+    font-size: 2.5em;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+    display: block;
+}
+
+ul, li{
+    list-style-type: none;
+}
+
+ul{
+    display: flex;
+    justify-content: space-around;
+    padding: auto 20px;
+    
+}
+
+nav{
+    width: 100%;
+    padding: 20px;
+    background: #111;
+    font-size: 20px;
+}
+
+.logo{
+    float: left;
+    display: block;
+    padding: 15px;
+    font-size: 25px;
+}
+
+header{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    background: url(/assets/img/Portada.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.texto {
+    margin: auto;
+    padding: 25px;
+    text-shadow: 2px 2px 8px #000000;
+}
+.texto h1 {
+    font-size: 4em;
+    font-weight: 700;
+}
+
+button {
+    color: #fff;
+    background-color: #111;
+    font-size: 2em;
+    padding: 15px;
+    border-radius: 6px;
+
+}
+
+.lanzamientos{
+    width: 100%;
+    min-height: max-content;
+    position: relative;
+    background-color: #37383b;
+    text-align: center;
+}
+
+.lanzamientos .container {
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+    padding: 10px;
+
+}
+.lanzamientos h3 {
+    margin: 0;
+    padding: 20px;
+    font-size: 3em;
+}
+
+.lanzamientos .container .card {
+    width: 300px;
+    height: 480px;
+    border: 1px solid #111;
+    border-radius: 14px;
+    overflow: hidden;
+    
+}
+.card img {
+    position: relative;
+    width: 100%;
+    height: auto;
+    background-position: center;
+    background-size: cover;  
+}
+
+
+/*HOMBRES*/
+
+.fondoH{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    background: url(/assets/img/Hombres.jpg);
+    background-size: cover;
+    background-repeat: repeat;
+    background-position: center;
+}
+
+/*.fondoH .tituloSeg{
+    margin: 0%;
+    padding: 0%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    
+}*/
+
+.fondoH h3 {
+    margin: 0%;
+    padding: 0%;
+    width: 20vw;
+    height: 20vh;
+    font-size: 5em;
+    display: flex;
+    position: fixed;
+    margin-top: 5px;
+}
+
+.cardH{
+    width: 150px;
+    height: 150px;
+    border: 1px solid #111;
+    border-radius: 14px;
+    background-color: #fff;
+}
+
+.contenido{
+    max-width: 1100px;
+    width: 100%;
+    margin: 40 px auto;
+    display: flex;
+}
+
+.mostrador{
+    width: 100%;
+    transition: .5s ease;
+}
+
+.mostrador .fila{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.mostrdor .fila .item{
+    max-width: 210px;
+    padding: 30px;
+    height: 250px;
+    text-align: center;
+    margin: 0 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: .3s;
+}
+
+.mostrador .fila .item:hover{
+    background-color: #e6e6e686;
+}
+
+.mostrador .fila .item img{
+    width: 100%;
+    margin: 30px;
+}
+
+.mostrador .fila .item .descripcion{
+    color: #707070;
+    font-weight: bold;
+    
+}
+
+.nike{
+    width: 10vw ;
+    height: 25vh;
+}
+
+/*MUJERES*/
+.fondoM{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    background: url(/assets/img/zapas\ fondo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+
+/*OFERTAS*/
+.fondoO{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    background: url(/assets/img/Caja\ fondo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+/*Contacto*/
+.fondoC{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    background: url(/assets/img/Varias\ zapas.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    
+}
+
+footer{
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+    width: 100%;
+    min-height: max-content;
+}
+
+*::-webkit-scrollbar {
+    width: 16px;
+  }
+
+  *::-webkit-scrollbar-track {
+    background: #7d7d7d;
+  }
+
+  *::-webkit-scrollbar-thumb {
+    background-color: #000000;
+    border-radius: 10px;
+    border: 3px solid #000000;
+  }
+
+  @media screen (min-width: 320px ) {
+    nav{
+        width: 50%;
+        padding: 10px;
+        background: #111;
+        font-size: 10px;
+    }
+  }
+
+
+
+
+
+
+
+
+
+
